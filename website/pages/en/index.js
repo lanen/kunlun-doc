@@ -63,11 +63,11 @@ class HomeSplash extends React.Component {
         <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
-          <PromoSection>
+          {/* <PromoSection>
             <Button href="#try">Try It Out</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
+          </PromoSection> */}
         </div>
       </SplashContainer>
     );
@@ -149,16 +149,19 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'STL 被设计成快速构建生产级别、低配置、高性能的微服务开发框架，提供方便高效的类库支持（web, security, data, messaging）、脚手架支持等',
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'STL 框架',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: '微服务架构风格的整体方案，为复杂业务系统提供可靠性、弹性；赋能微服务独立部署、扩容、缩容、升级、降级等能力',
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: '昆仑云构',
+          },
+          {
+            content: '高速业务网关，提供多渠道业务接入，赋能微服务安全性、保护微服务免遭流量洪峰',
+            imageAlign: 'top',
+            title: 'API 网关',
           },
         ]}
       </Block>
