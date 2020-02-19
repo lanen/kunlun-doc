@@ -38,10 +38,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'microservice-arch', label: '微服务架构'}
-    // {doc: 'doc4', label: 'API'},
-    // {page: 'help', label: 'Help'},
-    // {blog: true, label: 'Blog'},
+    {doc: 'microservice-arch', label: '微服务架构'},
+    {doc: 'staring-intro', label: 'Staring'},
+    {doc: 'api-gateway-intro', label: 'SPI'},
+    {blog: true, label: '博客'},
+    {page: 'help', label: '社区'},
   ],
 
   // If you have users set above, you add it here:

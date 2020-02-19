@@ -21,18 +21,16 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      content: `更多信息可查看 [STL](${docUrl(
+        'staring-intro.html',
+      )}) 或 [SPI](${docUrl(
+        'api-gateway-intro.html',
+      )}) 文档.`,
+      title: '使用指南',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
-    },
-    {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: '使用过程中，如有问题可在[JIRA](https://portal.iquantex.com/jira/projects/SC/issues)上提出.',
+      title: '问题',
     },
   ];
 
@@ -41,9 +39,9 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>需要帮助?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>该项目持续升级中。</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

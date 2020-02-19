@@ -1,5 +1,17 @@
 {
   "docs": {
     "架构基础": ["microservice-arch"]
+  },
+  "staring": {
+    "Staring": [
+      "staring-intro",
+      "staring-quick-start"
+    ]
+  },
+  "gateway": {
+    "API Gateway": [
+      "api-gateway-intro",
+      "api-gateway-roadmap"
+    ]
   }
 }
