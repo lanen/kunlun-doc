@@ -5,7 +5,7 @@ sidebar_label: SPI介绍
 ---
 ## 摘要
 
-本文工程化角度，逐步介绍如何基于 spring-cloud-gateway 的网关服务。 
+本文工程化角度，逐步介绍如何基于 spring-cloud-gateway 的网关服务(<a href="assets/gateway-intro.zip" >源码下载</a>)。
 
 
 - basic-01 基本的网关反向代理功能 
