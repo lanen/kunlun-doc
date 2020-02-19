@@ -56,7 +56,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>其他</h5>
-            <a href="https://portal.iquantex.com/jira/projects/SC/issues" target="_blank">STL社区</a>
+            <a href={this.pageUrl('help.html', this.props.language)}>帮助</a>
           </div>
         </section>
 

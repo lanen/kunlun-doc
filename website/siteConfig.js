@@ -42,7 +42,7 @@ const siteConfig = {
     {doc: 'staring-intro', label: 'Staring'},
     {doc: 'api-gateway-intro', label: 'SPI'},
     {blog: true, label: '博客'},
-    {page: 'help', label: '社区'},
+    {page: 'help', label: '帮助'},
   ],
 
   // If you have users set above, you add it here:
