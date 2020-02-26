@@ -22,6 +22,7 @@ class Footer extends React.Component {
   }
 
   render() {
+    const baseUrl = this.props.config.baseUrl;
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
@@ -37,13 +38,13 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Staring</h5>
-            <a href={this.docUrl('staring-intro.html', this.props.language)}>
+            <a href={this.docUrl('starling-intro.html', this.props.language)}>
               STL介绍
             </a>
-            <a href={this.docUrl('staring-quick-start.html', this.props.language)}>
+            <a href={this.docUrl('starling-quick-start.html', this.props.language)}>
               快速入门
             </a>
-            <a href="https://gitlab.iquantex.com/arch/web-framework" target="_blank">项目地址</a>
+            <a href="https://gitlab.iquantex.com/arch/starling" target="_blank">项目地址</a>
           </div>
           <div>
             <h5>API Gateway</h5>
@@ -61,8 +62,7 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
+          href={`${baseUrl}`}
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img

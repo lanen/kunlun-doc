@@ -1,5 +1,5 @@
 ---
-id: staring-quick-start
+id: starling-quick-start
 title: 2.0.0快速入门
 sidebar_label: 快速入门
 ---

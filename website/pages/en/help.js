@@ -22,7 +22,7 @@ function Help(props) {
   const supportLinks = [
     {
       content: `更多信息可查看 [STL](${docUrl(
-        'staring-intro.html',
+        'starling-intro.html',
       )}) 或 [SPI](${docUrl(
         'api-gateway-intro.html',
       )}) 文档.`,

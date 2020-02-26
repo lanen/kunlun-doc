@@ -1,5 +1,5 @@
 ---
-id: staring-intro
+id: starling-intro
 title: Staring框架介绍
 sidebar_label: STL介绍
 ---

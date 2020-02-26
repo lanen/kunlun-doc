@@ -2,10 +2,10 @@
   "docs": {
     "架构基础": ["microservice-arch"]
   },
-  "staring": {
+  "starling": {
     "Staring": [
-      "staring-intro",
-      "staring-quick-start"
+      "starling-intro",
+      "starling-quick-start"
     ]
   },
   "gateway": {
